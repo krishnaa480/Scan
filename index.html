@@ -1,50 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>CardScan - Scan Visiting Cards</title>
-  <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scanning Visiting Card</title>
+    <!-- cursor cdn link here -->
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+  
+    <!-- css file here -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <header>
-    <h1>CardScan</h1>
-    <p>The best app for scanning visiting cards</p>
-  </header>
-  <main>
-    <section id="features">
-      <h2>Features</h2>
-      <ul>
-        <li>
-          <img src="./img/card scan.png" alt="Scan Visiting Cards" class="first">
-          <h3>Scan Visiting Cards</h3>
-          <p>Quickly and accurately scan visiting cards with CardScan's advanced scanning technology.</p>
-        </li>
-        <li>
-          <img src="./img/pic 01.webp" alt="98% Accuracy" class="middle" width="">
-          <h3>98% Accuracy</h3>
-          <p>CardScan boasts an impressive 98% accuracy in scanning and extracting contact information from visiting cards.</p>
-        </li>
-        <li>
-          <img src="./img/save.png" alt="Save to Contacts" class="last">
-          <h3>Save to Contacts</h3>
-          <p>Easily save scanned visiting card details to your phone's contacts with just a few taps.</p>
-        </li>
-      </ul>
+    <!-- header start here -->
+    <header class="upper">
+        <div class="center">
+            <h1>Card Scan</h1>
+            <p>The best app for scanning visiting cards</p>
+        </div>
+    </header>
+    <!-- header end here -->
+
+    <section class="features">
+        <h2>Features</h2>
+        <div class="card">
+            <div class="inner-card">
+              <img src="./img/card scan.png" alt="Scan Visiting Cards">
+              <h1>Scan Visiting Cards</h1>
+              <p>Quickly and accurately scan visiting cards with CardScan's advanced scanning technology.</p>
+            </div>
+            <div class="inner-card">
+              <img src="./img/WWU1.png" alt="98% Accuracy" class="middle" width="">
+              <h1>98% Accuracy</h1>
+              <p>CardScan boasts an impressive 98% accuracy in scanning and extracting contact information from visiting cards.</p>
+            </div>
+            <div class="inner-card">
+              <img src="./img/save.png" alt="Save to Contacts" class="last">
+              <h1>Save to Contacts</h3>
+              <p>Easily save scanned visiting card details to your phone's contacts with just a few taps.</p>
+            </div>
+          </div>
     </section>
-    <section id="download">
-      <h2>Download CardScan</h2>
-      <p>CardScan is available for download on both Android and iOS platforms.</p>
-      <div class="download-buttons">
-        <a href="https://play.google.com/store/apps/details?id=com.cardscan.android" class="google-play" target="_blank">
-          <img src="./img/google play.png" alt="Google Play" width="70px">
-        </a>
-        <a href="https://apps.apple.com/us/app/cardscan-scan-visiting-cards/id1234567890" class="app-store" target="_blank">
-          <img src="./img/IOS.png" alt="App Store" width="26px">
-        </a>
-      </div>
+
+    <!-- down here-->
+    <section id="down">
+        <div class="end">
+            <h2>Download Card Scan</h2>
+            <p>Card Scan is Available for downloads on both <img src="./img/google play.png" alt="Google play store" width="50px"> And <img src="./img/IOS.png" alt="iOS" width="20px"> platforms.</p>
+        </div>
     </section>
-  </main>
-  <footer>
-    <p align="center">&copy; 2023 CardScan. All rights reserved. | Privacy Policy | Terms of Service</p>
-  </footer>
+
+    <footer>
+      <p>&copy; 2023 CardScan App</p>
+    </footer>
+
+    
 </body>
+<script src="https://unpkg.com/kursor"></script>
+    <script>
+        new kursor({
+            type: 1,
+            removeDefaultCursor:true,
+            color: '#FC1555',
+            backgroundColor:'#A84532',
+        })
+    </script>
 </html>
